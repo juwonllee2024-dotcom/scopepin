@@ -2,7 +2,8 @@
 
 Date: 2026-08-25  
 Artifact: local `dist/scopepin-extension` bundle  
-Policy: this run builds and verifies locally; no repository was created, pushed, or published.
+Repository: https://github.com/juwonllee2024-dotcom/scopepin  
+Policy: only the verified source, documentation, and CI configuration were committed and pushed.
 
 ## Automated checks
 
@@ -50,6 +51,13 @@ capsule [ScopePin v1] ... [/ScopePin]
 
 Bundle file count: 8 extension files plus `BUILD.txt`.  
 SHA-256: `dist/scopepin-extension/manifest.json` = `c5276ba2f9fce635168a07bf9b5ac2944f05399714012fb8759ee3c67c0d851d`.
+
+## Published verification
+
+- Initial MVP commit: `c7a1108`
+- CI workflow commit: `e374f26`
+- CI run: [32914609622](https://github.com/juwonllee2024-dotcom/scopepin/actions/runs/32914609622) — passed
+- Release: `v0.1.0` — published after CI passed
 
 ## Manual browser check still required
 
