@@ -1,0 +1,37 @@
+#scopepin-banner {
+  position: fixed;
+  top: 12px;
+  right: 16px;
+  z-index: 2147483647;
+  max-width: min(420px, calc(100vw - 32px));
+  padding: 9px 13px;
+  border: 1px solid rgba(255, 255, 255, 0.16);
+  border-radius: 999px;
+  color: #f7f7f2;
+  background: rgba(20, 24, 30, 0.94);
+  box-shadow: 0 8px 28px rgba(0, 0, 0, 0.28);
+  font: 600 12px/1.35 system-ui, sans-serif;
+  pointer-events: none;
+  transition: border-color 160ms ease, background 160ms ease;
+}
+
+#scopepin-banner.scopepin-live {
+  border-color: #a5e887;
+}
+
+#scopepin-banner.scopepin-blocked {
+  border-color: #ff9f8a;
+  background: rgba(61, 28, 28, 0.96);
+}
+
+#scopepin-banner strong {
+  letter-spacing: 0.05em;
+}
+
+#scopepin-banner[data-flash]::after {
+  display: block;
+  margin-top: 4px;
+  color: #ffd166;
+  content: attr(data-flash);
+  font-weight: 500;
+}

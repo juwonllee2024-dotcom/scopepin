@@ -1,0 +1,34 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>ScopePin</title>
+    <link rel="stylesheet" href="popup.css">
+  </head>
+  <body>
+    <main class="shell">
+      <header>
+        <div class="eyebrow">BROWSER CONTEXT</div>
+        <h1>ScopePin</h1>
+        <p>Pin the source. See the scope. Stop stale sends.</p>
+      </header>
+
+      <section id="status" class="status" aria-live="polite">No source pinned.</section>
+
+      <div class="actions">
+        <button id="pin" class="primary" type="button">📌 Pin this page</button>
+        <button id="copy" type="button">Copy capsule</button>
+        <button id="clear" type="button">Clear scope</button>
+      </div>
+
+      <section class="preview">
+        <div class="preview-heading">REVIEWABLE CAPSULE</div>
+        <pre id="capsule">Pin a source page to preview what the AI chat may use.</pre>
+      </section>
+
+      <p id="notice" class="notice" role="status"></p>
+    </main>
+    <script type="module" src="popup.mjs"></script>
+  </body>
+</html>

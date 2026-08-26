@@ -1,0 +1,18 @@
+{
+  "name": "scopepin",
+  "version": "0.1.0",
+  "description": "Pin the exact browser context before an AI chat can use it.",
+  "type": "module",
+  "private": false,
+  "scripts": {
+    "test": "node --test test/*.test.mjs",
+    "check": "node --check src/scope-engine.mjs && node --check background/service-worker.mjs && node --check content/content.js && node --check popup/popup.mjs",
+    "build": "node scripts/build.mjs",
+    "verify": "npm test && npm run check && npm run build"
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "license": "MIT"
+}
+
