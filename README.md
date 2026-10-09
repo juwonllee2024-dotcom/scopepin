@@ -1,3 +1,33 @@
+<!-- JUWON-PORTFOLIO-INTRO:START -->
+# ScopePin
+
+![ScopePin — portfolio visual](docs/portfolio-preview.svg)
+
+*Portfolio introduction card, not a screenshot of a running application.*
+
+*포트폴리오 소개 카드입니다. 실행 화면 캡처가 아닙니다.*
+
+## English
+
+A Chrome extension that pins the page context intended for an AI conversation and pauses transmission when the source changes.
+
+[View JUWON's portfolio](https://jupt.pages.dev/) · [Browse the project collection](https://jupt.pages.dev/projects)
+
+**Scope:** This README presents the repository's documented intent and recorded visual evidence. It does not certify that every feature is complete, deployed, or currently working. Follow the original setup, safety, and license documentation below.
+
+## 한국어
+
+AI 대화에 사용할 페이지를 고정하고 출처가 바뀌면 전송을 멈추는 확장.
+
+[JUWON 포트폴리오 보기](https://jupt.pages.dev/) · [전체 프로젝트 보기](https://jupt.pages.dev/projects)
+
+**확인 범위:** 저장소의 문서상 목적과 기록된 화면 근거를 소개합니다. 모든 기능의 완성·배포·현재 정상 작동을 보증하지 않습니다. 설치법·안전 주의사항·라이선스는 아래 기존 문서를 확인하세요.
+<!-- JUWON-PORTFOLIO-INTRO:END -->
+
+---
+
+## Original documentation / 기존 문서
+
 # 📌 ScopePin
 
 ## Pin the page. See the scope. Stop stale sends.
